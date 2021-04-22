@@ -2,10 +2,10 @@
   "name": "whatsapp-api",
   "version": "1.0.0",
   "description": "Whatsapp api by Ngekoding",
-  "main": "app.js",
+  "main": "app-multiple-device.js",
   "scripts": {
-    "start": "node app.js",
-    "start:dev": "nodemon app.js",
+    "start": "node app-multiple-device.js",
+    "start:dev": "nodemon app-multiple-device.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,13 +15,13 @@
   "author": "Nur Muhammad",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "express-fileupload": "^1.2.0",
     "express-validator": "^6.9.2",
     "http": "0.0.1-security",
     "qrcode": "^1.4.4",
-    "socket.io": "2.3.0",
+    "socket.io": "^2.4.1",
     "whatsapp-web.js": "latest"
   },
   "engines": {
